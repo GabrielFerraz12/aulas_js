@@ -13,7 +13,7 @@ if(nota >= 7 && nota <= 10){
 }
  else if(nota < 7 && nota >= 0){
    console.log('Aluno Reprovado')
-}
+ }
  else {
    console.log('Nota informada errado')
  }
