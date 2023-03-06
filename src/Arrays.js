@@ -24,7 +24,7 @@ delete valores[0];
 console.log(typeof valores);
 console.log(valores);
 /* Podemos também fazer uso dos arrays para criar
-operações aritmética */
+operações aritméticas */
 let calculo = [10, 15];
 let resultado = calculo[0] + calculo[1];
 console.log(resultado);
