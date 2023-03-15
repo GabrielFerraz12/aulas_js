@@ -26,7 +26,20 @@ const subtracao = (a, b) => a - b;
 
 // Função armazenadas dentro de objetos
 let calculadora = {
-  div: function (a, b) {
+  divide: function (a, b) {
     console.log(a / b);
+  },
+  soma: function (a, b) {
+    console.log(a + b);
+  },
+  multiplica: function (a, b) {
+    console.log(a * b);
+  },
+  subtrai: function (a, b) {
+    console.log(a - b);
   }
 };
+calculadora.divide(100, 10);
+calculadora.soma(15, 20);
+calculadora.multiplica(5, 2);
+calculadora.subtrai(60, 20);
